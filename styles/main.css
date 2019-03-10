@@ -15,6 +15,9 @@ GLOBAL STYLES
 html {
   font-size: 1rem;
 }
+a {
+  text-decoration: none;
+}
 img {
   height: auto;
   max-width: 100%;
@@ -27,7 +30,7 @@ img {
 }
 /* HEADER STYLES */
 header.tb-header {
-  border: 1px solid black;
+
   background-color: rgb(255,70,67);
   display: flex;
   height: 7.5%;
@@ -48,16 +51,48 @@ div.tb-logo-placeholder {
 
 /* NAVIGATION STYLES */
 nav.tb-top-nav {
-  border: 1px solid black;
-  height: 5%;
-  width: 100%;
 
+  height: 5%;
+  padding-top: 1%;
+  width: 100%;
 }
+
+ul#leftNav li {
+  /* border: 1px solid green; */
+  display: inline-block;
+  float: left;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 30%;
+}
+
+ul#leftNav {
+  /* border: 1px solid black; */
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+ul#rightNav {
+  /* border: 1px solid black; */
+  float: right;
+  height: 100%;
+  width: 50%;
+}
+ul#rightNav li {
+  /* border: 1px solid green; */
+  display: inline-block;
+  float: right;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 30%;
+}
+
+
 
 /* FOOTER STYLES  */
 
 footer.tb-footer {
-  border: 1px solid black;
+
   background-color: rgb(255,70,67);
   height: 22.5%;
   width: 100%;
@@ -68,14 +103,14 @@ INDEX ONLY STYLES
 ****************************************************************************/
 /* TOP RIBBON STYLES */
 section.tb-top-ribbon {
-  border: 1px solid black;
+
   height: 32.5%;
   width: 100%;
 }
 
 /* BOTTOM RIBBON STYLES  */
 section.tb-bottom-ribbon {
-  border: 1px solid black;
+
   height: 32.5%;
   width: 100%;
 }
