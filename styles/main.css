@@ -1,0 +1,26 @@
+/* MAIN STYLESHEET FOR THIRSTY BEAR PROJECT - 3/10/19 */
+
+/*
+FONT CODES
+
+ */
+
+
+/****************************************************************************
+GLOBAL STYLES
+****************************************************************************/
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1rem;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+.main-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
