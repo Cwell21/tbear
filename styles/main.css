@@ -30,8 +30,8 @@ img {
 }
 /* HEADER STYLES */
 header.tb-header {
-
-  background-color: rgb(255,70,67);
+  background-image: url("../images/boardBackground.jpg");
+  background-size: cover;
   display: flex;
   height: 7.5%;
   justify-content: center;
@@ -52,11 +52,13 @@ div.tb-logo-placeholder {
 
 /* NAVIGATION STYLES */
 nav.tb-top-nav {
-
+  background-color: rgb(255,70,67);
+  border-bottom: 1px solid rgb(235,235,235);
   height: 5%;
   padding-top: 1%;
   width: 100%;
 }
+
 
 ul#leftNav li {
   /* border: 1px solid green; */
@@ -88,17 +90,43 @@ ul#rightNav li {
   width: 30%;
 }
 
+nav.tb-top-nav a {
+  color: rgb(235,235,235);
+}
+
 
 
 /* FOOTER STYLES  */
 
 footer.tb-footer {
-
   background-color: rgb(255,70,67);
+  display: flex;
+  flex-flow: column;
   height: 22.5%;
   width: 100%;
 }
+div.tb-footer-row {
+  display: flex;
+  width: 100%;
+}
+div.tb-footer-content {
+  display: flex;
+  height: 67%;
+  justify-content: space-around;
+  width: 100%;
+}
+div.tb-footer-spacer {
+  background-image: url("../images/boardBackground.jpg");
+  background-size: cover;
+  height: 33%;
+  width: 100%;
+}
 
+section.tb-column-footer {
+  border: 1px solid black;
+  height: 100%;
+  width: 30%;
+}
 /****************************************************************************
 INDEX ONLY STYLES
 ****************************************************************************/
@@ -136,7 +164,36 @@ article#tbWelcome span {
 
 /* BOTTOM RIBBON STYLES  */
 section.tb-bottom-ribbon {
+  display: flex;
 
   height: 32.5%;
   width: 100%;
+}
+
+/**********************************************************************************
+  MEDIA QUERIES
+**********************************************************************************/
+@media only screen and (max-width: 600px) {
+  ul#leftNav, ul#rightNav {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    height: 50%;
+    justify-content: space-around;
+    min-width: 100%;
+  }
+  nav.tb-top-nav {
+    height: 12.5%;
+  }
+  nav.tb-top-nav li {
+    float: none;
+    min-width:100%;
+  }
+  header.tb-header {
+    display: none;
+  }
+  div.tb-logo-placeholder {
+    display:none;
+  }
+
 }
