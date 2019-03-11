@@ -138,7 +138,24 @@ section.tb-top-ribbon {
   position: relative;
   width: 100%;
 }
-
+/* SLIDE SHOW STYLES */
+span.tb-slide-arrow {
+  color: rgba(15,15,15, .75);
+}
+span#tbLeftArrow {
+  position: absolute;
+  left: 5px;
+  top: 45%;
+}
+span#tbRightArrow {
+  position: absolute;
+  right: 5px;
+  top: 45%;
+}
+span.tb-slide-arrow:hover {
+  color:rgba(100,100,100,.75);
+  cursor: pointer;
+}
 article#tbWelcome {
   align-items: center;
   background-color: rgba(75,75,75,.75);
