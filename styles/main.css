@@ -132,13 +132,19 @@ INDEX ONLY STYLES
 ****************************************************************************/
 /* TOP RIBBON STYLES */
 section.tb-top-ribbon {
-  background-image: url("../images/burger-chips-dinner-70497.jpg");
-  background-size: cover;
   height: 32.5%;
   position: relative;
   width: 100%;
 }
 /* SLIDE SHOW STYLES */
+
+div#slide {
+  background-image: url("../images/backgroundImages/bg2.jpg");
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
 span.tb-slide-arrow {
   color: rgba(15,15,15, .75);
 }
