@@ -124,9 +124,45 @@ div.tb-footer-spacer {
 }
 
 section.tb-column-footer {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   height: 100%;
+  padding: 2%;
   width: 30%;
+}
+
+section.tb-column-footer h3 {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  color: rgb(35,35,35);
+  margin-bottom: 5%;
+  padding: 3% 0;
+  text-align: center;
+}
+section.tb-column-footer ul {
+  font-size: 1.25rem;
+}
+
+section.tb-column-footer li {
+  color: rgb(235,235,235);
+  margin: 1% 0;
+}
+
+section.tb-column-footer p {
+  color: rgb(235,235,235);
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+div.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.social a {
+  color: rgb(235,235,235);
 }
 /****************************************************************************
 INDEX ONLY STYLES
