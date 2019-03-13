@@ -2,7 +2,8 @@
 
 /*
 FONT CODES
-
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Serif', serif;
  */
 
 
@@ -11,9 +12,6 @@ GLOBAL STYLES
 ****************************************************************************/
 * {
   box-sizing: border-box;
-}
-html {
-
 }
 a {
   text-decoration: none;
@@ -92,6 +90,7 @@ ul#rightNav li {
 
 nav.tb-top-nav a {
   color: rgb(235,235,235);
+  font-family: monospace;
 }
 
 
@@ -146,12 +145,16 @@ section.tb-column-footer ul {
 
 section.tb-column-footer li {
   color: rgb(235,235,235);
+  font-family: monospace;
+  line-height: 1.25em;
   margin: 1% 0;
 }
 
 section.tb-column-footer p {
   color: rgb(235,235,235);
+  font-family: cursive;
   font-size: 1.5rem;
+  line-height: 1.5em;
   text-align: center;
   width: 100%;
 }
@@ -236,13 +239,23 @@ article.tb-bottom-main {
 }
 
 article.tb-bottom-main h1 {
+  color: rgb(235,235,235);
+  font-family: 'Oswald', sans-serif;
   font-size: 4rem;
   height: auto;
   text-align: center;
   width: 100%;
 }
+
+article.tb-bottom-main em {
+  color: rgb(130,15,5);
+  font-size: 4.1rem;
+}
+
 article.tb-bottom-main p {
+  font-family: 'PT Serif', serif;
   font-size: 2rem;
+  line-height: 1.5em;
   margin: 2% auto 0;
   padding: 1%;
   width: 75%;
