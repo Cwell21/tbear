@@ -1,0 +1,52 @@
+{
+  "breakfast": [
+    {
+      "item": "Breakfast Burrito",
+      "desc": "Egg, hashbrowns, and your choice of meat wrapped in a flour tortilla, smothered in green chili",
+      "dispPrice": "$10.99",
+      "subMenu": "Meals"
+    },
+    {
+      "item": "Chicken Fried Steak",
+      "desc": "Chicken fried steak, Eggs, hashbrowns, and 2 biscuits smothered in gravey",
+      "dispPrice": "$12.99",
+      "subMenu": "Meals"
+    },
+    {
+      "item": "Traditional Breakfast",
+      "desc": "2 Eggs your way, hashbrowns, and your choice of meat, with a side of toast",
+      "dispPrice": "$5.99",
+      "subMenu": "Meals"
+    },
+    {
+      "item": "Bacon",
+      "desc": "Two pieces of fried bacon",
+      "dispPrice": "$1.99",
+      "subMenu": "Sides"
+    },
+    {
+      "item": "Sausage",
+      "desc": "Two Sausage patties",
+      "dispPrice": "$1.99",
+      "subMenu": "Sides"
+    },
+    {
+      "item": "Chorizo",
+      "desc": "Two Chorizo patties",
+      "dispPrice": "$1.99",
+      "subMenu": "Sides"
+    },
+    {
+      "item": "Eggs",
+      "desc": "Two eggs cooked your way",
+      "dispPrice": "$1.99",
+      "subMenu": "Sides"
+    },
+    {
+      "item": "Toast",
+      "desc": "Two pieces of white or wheat toast",
+      "dispPrice": "$1.99",
+      "subMenu": "Sides"
+    },
+  ]
+}
