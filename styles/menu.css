@@ -1,6 +1,30 @@
 /* STYLES FOR MENU.HTML (SEE MAIN.CSS FOR STYLES AT HEADER AND FOOTER */
 main#tbMenuContent {
-  background-color: rgb(5,5,5);
+  display: flex;
+  justify-content: flex-start;
   height: 65%;
   width: 100%;
+}
+
+aside#tbSideNav {
+  border-right: 2px solid rgb(75,75,75);  
+  height: 100%;
+  width: 20%;
+}
+
+section#tbMenu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+}
+section#tbMenu h2{
+  background-color: rgb(235,50,25);
+}
+
+div.tbMenuItem {
+  border: 1px solid green;
+  
+  height: 200px;
+  width: 80%;
 }

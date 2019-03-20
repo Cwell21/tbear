@@ -10,6 +10,9 @@ font-family: 'PT Serif', serif;
 /****************************************************************************
 GLOBAL STYLES
 ****************************************************************************/
+@import url("index.css");
+@import url("menu.css");
+
 * {
   box-sizing: border-box;
 }
@@ -167,159 +170,7 @@ div.social {
 div.social a {
   color: rgb(235,235,235);
 }
-/****************************************************************************
-INDEX ONLY STYLES
-****************************************************************************/
-/* TOP RIBBON STYLES */
-section.tb-top-ribbon {
-  height: 32.5%;
-  position: relative;
-  width: 100%;
-}
-/* SLIDE SHOW STYLES */
 
-div#slide {
-  background-image: url("../images/backgroundImages/bg2.jpg");
-  background-size: cover;
-  height: 100%;
-  position: relative;
-  width: 100%;
-}
-span.tb-slide-arrow {
-  color: rgba(15,15,15, .75);
-}
-span#tbLeftArrow {
-  position: absolute;
-  left: 5px;
-  top: 45%;
-}
-span#tbRightArrow {
-  position: absolute;
-  right: 5px;
-  top: 45%;
-}
-span.tb-slide-arrow:hover {
-  color:rgba(100,100,100,.75);
-  cursor: pointer;
-}
-article#tbWelcome {
-  align-items: center;
-  background-color: rgba(75,75,75,.75);
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  height: 200px;
-  justify-content: center;
-  position: absolute;
-  right: 50px;
-  top: 25px;
-  width: 800px;
-}
-
-article#tbWelcome p{
-  font-size: 4rem;
-}
-
-article#tbWelcome span {
-
-  font-size: 1.25rem;
-}
-
-/* BOTTOM RIBBON STYLES  */
-section.tb-bottom-ribbon {
-  background-color: rgb(175,175,175);
-  display: flex;
-  flex-direction: column;
-  height: 32.5%;
-  padding-top: 2%;
-  width: 100%;
-}
-article.tb-bottom-main {
-  height: 60%;
-}
-
-article.tb-bottom-main h1 {
-  color: rgb(235,235,235);
-  font-family: 'Oswald', sans-serif;
-  font-size: 4rem;
-  height: auto;
-  text-align: center;
-  width: 100%;
-}
-
-article.tb-bottom-main em {
-  color: rgb(130,15,5);
-  font-size: 4.1rem;
-}
-
-article.tb-bottom-main p {
-  font-family: 'PT Serif', serif;
-  font-size: 2rem;
-  line-height: 1.5em;
-  margin: 2% auto 0;
-  padding: 1%;
-  width: 75%;
-}
-
-/* BOTTOM RIBBON FOOTER */
-section.tb-bottom-footer {
-  background-color: rgb(75,75,75);
-  display: flex;
-  height: 40%;
-  justify-content: space-around;
-  padding: 2% 0;
-  width: 100%;
-}
-div.tb-bottom-footer-content {
-  border: .5px solid rgb(5,5,5);
-  box-shadow: 1px 1px rgb(5,5,5);
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  position: relative;
-  width: 25%;
-}
-div.tb-bottom-footer-content h3 {
-  align-items: center;
-  background-color: rgba(175,175,175,.75);
-  border-bottom: 1px solid rgb(100,100,100);
-  display: flex;
-  justify-content: center;
-  height: 25%;
-  width: 100%;
-}
-
-div.tb-bottom-footer-content a {
-  background-color: rgba(175,175,175,.9);
-  border: 5px solid rgb(235,235,235);
-  color: rgb(25,25,25);
-  display: inline-block;
-  font-size: 1.25em;
-  height: 20%;
-  left: 25%;
-  line-height: 150%;
-  position: absolute;
-  text-align: center;
-  top: 40%;
-  width: 50%;
-
-}
-div.tb-bottom-footer-content a:hover {
-  border: 5px solid rgb(50,50,50);
-  background-color: rgba(200,200,200,1);
-}
-section.tb-bottom-footer div:nth-child(1) {
-  background-image: url("../images/backgroundImages/beers.jpg");
-  background-size: cover;
-}
-section.tb-bottom-footer div:nth-child(2) {
-  background-image: url("../images/backgroundImages/menu.jpg");
-  background-size: cover;
-}
-section.tb-bottom-footer div:nth-child(3) {
-  background-image: url("../images/backgroundImages/media.jpg");
-  background-size: cover;
-}
 
 /**********************************************************************************
   MEDIA QUERIES
