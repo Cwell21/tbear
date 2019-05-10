@@ -23,8 +23,29 @@ section#tbMenu h2{
 }
 
 div.tbMenuItem {
-  border: 1px solid green;
   
-  height: 200px;
+  display: flex;
+  flex-flow: wrap;
+  height: 50px;;
   width: 80%;
+}
+
+.tbMenuItem h3 {
+  background-color: rgb(200,200,200);
+  display: inline-block;
+  flex: 3 3 50%;
+  width: 50%;
+
+}
+.tbMenuItem p {
+  background-color: rgb(200,200,200);
+  display: inline-block;
+  flex: 1 1 50%;
+  width: 50%;
+}
+.tbMenuItem p:last-child {
+  background-color: rgb(100,100,100);
+  display: inline-block;
+  flex: 1 1 100%;
+  width: 100%;
 }
